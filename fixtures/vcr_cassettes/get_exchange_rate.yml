@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://free.currconv.com/api/v7/convert?apiKey=e360c6122d3dfff462d2&compact=ultra&q=PHP_USD
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 22 Apr 2019 00:21:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '10478'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d6cb97f1734d42c4e9e3913b7465bc7c01555892489; expires=Tue, 21-Apr-20
+        00:21:29 GMT; path=/; domain=.currconv.com; HttpOnly
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"28ee-++bKsQsWnDwBDBEZHjoTIJY7hoo"
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4cb3701b3e4332b3-HKG
+    body:
+      encoding: UTF-8
+      string: '{"PHP_USD":0.019318}'
+    http_version:
+  recorded_at: Mon, 22 Apr 2019 01:09:36 GMT
+recorded_with: VCR 4.0.0
