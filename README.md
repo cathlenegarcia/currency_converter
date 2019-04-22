@@ -31,13 +31,15 @@ Run `bundle install` to install the following in the project:
   ```
 
 ## Available Options
- --with-exchange-rate Prints exchange rate used in conversion
+ - ***--with-exchange-rate***  
+    Prints exchange rate used in conversion. 
  ```
  $ ruby lib/currency_converter.rb 100 PHP USD --with-exchange-rate
     Exchange Rate: 0.01935
     1.94
  ```
- --with-currency Prints target currency
+ - ***--with-currency***  
+    Prints converted amount with target currency.
  ```
  $ ruby lib/currency_converter.rb 1223.12 SGD GBP --with-currency
     1.94 GBP
